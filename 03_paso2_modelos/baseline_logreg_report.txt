@@ -1,0 +1,34 @@
+BASELINE - REGRESIÓN LOGÍSTICA (BINARIO OK vs NO_OK)
+
+CONFIG:
+- penalty=L2
+- class_weight=balanced
+- scaler=StandardScaler
+
+FEATURES:
+rms_mean, crest_factor_db, true_peak_dbfs, short_term_lufs_mean, loudness_var_proxy_db, silence_ratio, stereo_correlation, spectral_centroid_mean, spectral_flatness_mean, clipping_ratio, near_ceiling_ratio
+
+=== VALIDACIÓN ===
+              precision    recall  f1-score   support
+
+           0     0.9524    1.0000    0.9756        60
+           1     1.0000    0.9455    0.9720        55
+
+    accuracy                         0.9739       115
+   macro avg     0.9762    0.9727    0.9738       115
+weighted avg     0.9752    0.9739    0.9739       115
+
+ROC AUC: 0.9915151515151515
+
+=== TEST ===
+              precision    recall  f1-score   support
+
+           0     0.9831    0.9667    0.9748        60
+           1     0.9643    0.9818    0.9730        55
+
+    accuracy                         0.9739       115
+   macro avg     0.9737    0.9742    0.9739       115
+weighted avg     0.9741    0.9739    0.9739       115
+
+ROC AUC: 0.9978787878787878
+

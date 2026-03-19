@@ -1,0 +1,44 @@
+MODELO COMPARATIVO - RANDOM FOREST (BINARIO OK vs NO_OK)
+
+CONFIG:
+- n_estimators=600
+- class_weight=balanced
+- min_samples_leaf=2
+
+FEATURES:
+rms_mean, crest_factor_db, true_peak_dbfs, short_term_lufs_mean, loudness_var_proxy_db, silence_ratio, stereo_correlation, spectral_centroid_mean, spectral_flatness_mean, clipping_ratio, near_ceiling_ratio
+
+=== VALIDACIÓN ===
+              precision    recall  f1-score   support
+
+           0     0.9836    1.0000    0.9917        60
+           1     1.0000    0.9818    0.9908        55
+
+    accuracy                         0.9913       115
+   macro avg     0.9918    0.9909    0.9913       115
+weighted avg     0.9914    0.9913    0.9913       115
+
+ROC AUC: 0.9996969696969696
+
+=== TEST ===
+              precision    recall  f1-score   support
+
+           0     1.0000    1.0000    1.0000        60
+           1     1.0000    1.0000    1.0000        55
+
+    accuracy                         1.0000       115
+   macro avg     1.0000    1.0000    1.0000       115
+weighted avg     1.0000    1.0000    1.0000       115
+
+ROC AUC: 1.0
+
+=== VALIDACIÓN CRUZADA 5-FOLD ===
+Accuracy mean: 0.9816907464740282
+Accuracy std : 0.015679832668425535
+F1 mean      : 0.980763144901076
+F1 std       : 0.016328100341040437
+Recall mean  : 0.9753424657534246
+Recall std   : 0.015975210670809054
+ROC AUC mean : 0.9981844980058956
+ROC AUC std  : 0.0022364837270279912
+

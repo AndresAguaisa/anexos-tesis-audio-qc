@@ -1,0 +1,12 @@
+,coef
+stereo_correlation,-2.9896272314068515
+silence_ratio,2.586794354510941
+crest_factor_db,-2.147045488789283
+true_peak_dbfs,-2.1345256024179324
+rms_mean,1.6876426849255952
+clipping_ratio,1.55579282050402
+short_term_lufs_mean,-1.146881395980616
+near_ceiling_ratio,1.0691026094332827
+spectral_centroid_mean,-0.5886356436832251
+spectral_flatness_mean,-0.3710956971365697
+loudness_var_proxy_db,-0.056633006945099554

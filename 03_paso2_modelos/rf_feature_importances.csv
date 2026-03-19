@@ -1,0 +1,12 @@
+,importance
+true_peak_dbfs,0.25348960745133087
+crest_factor_db,0.215018699511481
+short_term_lufs_mean,0.11560302763186556
+silence_ratio,0.11386692055238372
+rms_mean,0.09650408384867236
+stereo_correlation,0.08074049478340382
+loudness_var_proxy_db,0.053053362885085324
+spectral_flatness_mean,0.025852045509801306
+near_ceiling_ratio,0.01810430793010514
+spectral_centroid_mean,0.01710776274837126
+clipping_ratio,0.010659687147499822
