@@ -14,3 +14,7 @@ Este repositorio contiene los anexos digitales del proyecto de tesis orientado a
 ## Observación
 
 Este material complementa la memoria escrita del proyecto y se presenta como evidencia metodológica y técnica del desarrollo realizado.
+
+## Enlace de referencia
+
+Repositorio principal de anexos digitales del proyecto.
